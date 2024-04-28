@@ -1,2 +1,2 @@
-# trendyol-cat
-Trendyol Kategoriye Ait Ürünleri Çekmek
+# Trendyol Kategorideki Ürünleri Çekmek
+Bir projem için kullandığım BeautifulSoup ile yapılmış. Trendyoldaki her hangi bir kategoriye ait link verdiğiniz taktirde, o kategoride bulunan ürünleri json formatında çıktı verecektir. Ortalama bir hızda çalışıyor, benim işimi gördüğü için uğraşmadım fakat dilerseniz asyncio ve aiohttp kütüphanelerini kullanarak asenkron istekler yaratabilirsiniz. Bu sayede çok hızlı bir şekilde yanıt dönecektir.
