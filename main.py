@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 
 # Hedef URL'ler
-base_url = "https://www.trendyol.com/oyuncu-monitor-x-c106087?sst=BEST_SELLER&?pi="
+base_url = "https://www.trendyol.com/oyuncu-monitor-x-c106087?sst=BEST_SELLER&pi="
 page_urls = [f"{base_url}{i}" for i in range(1, 80)]
 
 # Kullanıcı Tarayıcı Bilgileri
